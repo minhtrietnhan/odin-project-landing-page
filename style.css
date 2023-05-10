@@ -4,6 +4,7 @@
 }
 
 body {
+  width: 100%;
   height: 100vh;
   font-family: "Merriweather", sans-serif;
 }
@@ -82,4 +83,97 @@ a {
 
 .hero-image {
   background-color: grey;
+}
+
+.content h1 {
+  margin: 2rem auto;
+  text-align: center;
+}
+
+.card-container {
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+  margin: 0 auto 30px auto;
+}
+
+.card {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight: lighter;
+  margin: 0 8px;
+}
+
+.card img {
+  width: 150px;
+  height: 150px;
+  border-radius: 15px;
+  border: 4px solid #3882f6;
+  margin-bottom: 10px;
+}
+
+.quote {
+  background-color: #e5e7eb;
+  padding: 4rem;
+}
+
+.quote-text {
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 36px;
+  font-weight: lighter;
+  font-style: italic;
+}
+
+.quote-author {
+  text-align: end;
+  font-weight: bold;
+  width: 80%;
+  margin-top: 1rem;
+}
+
+.action-container {
+  width: 70%;
+  height: 150px;
+  background-color: #3882f6;
+  border-radius: 15px;
+  margin: 3rem auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.action-text {
+  margin-right: 5rem;
+  color: #e5e7eb;
+}
+
+.action-text .title {
+  font-weight: bold;
+  margin-bottom: 0.3rem;
+}
+
+.action-text .text {
+  font-weight: lighter;
+}
+
+.action button {
+  border-radius: 5px;
+  padding: 0.4rem 2rem;
+  border: 2px solid #e5e7eb;
+  background-color: #3882f6;
+  color: #e5e7eb;
+  font-weight: bold;
+}
+
+.footer {
+  background-color: #1f2937;
+  color: #e5e7eb;
+  text-align: center;
+  padding: 1rem;
+  font-weight: lighter;
+  font-size: 14px;
 }
